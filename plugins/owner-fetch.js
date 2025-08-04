@@ -3,7 +3,7 @@ import { format } from 'util'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (m.fromMe) return
-if (!/^https?:\/\//.test(text)) return m.reply(`Ejemplo:\n${usedPrefix + command} https://skyultraplus.com`)
+if (!/^https?:\/\//.test(text)) return m.reply(`Ejemplo:\n${usedPrefix + command} https://skplus.com`)
 m.react("💻")
 let url = text
 let res = await fetch(url)

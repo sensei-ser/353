@@ -119,7 +119,7 @@ thumbnailUrl: image,
 title: "🌟 WELCOME 🌟",
 body: "Bienvenido al grupo 🤗",
 containsAutoReply: true,
-sourceUrl: "https://skyultraplus.com"
+sourceUrl: "https://skplus.com"
 }}}, { quoted: null })
 }}
 break
@@ -179,7 +179,7 @@ title: "👋 BYE",
 body: "Se fue un gay",
 containsAutoReply: true,
 mediaType: 1,
-sourceUrl: "https://skyultraplus.com"
+sourceUrl: "https://skplus.com"
 }}}, { quoted: null })
 }}
 break
