@@ -17,7 +17,7 @@ let numero = null
 if (usarLid && v.id.endsWith('@lid')) {
 const res = await db.query('SELECT num FROM usuarios WHERE lid = $1', [v.id])
 numero = res.rows[0]?.num || null
-} else if (/^\d+@s\.whatsapp\.net$/.test(v.id)) {
+} else if (/^\d+@s\.whaapp\.net$/.test(v.id)) {
 numero = v.id.split('@')[0]
 }
 return `➥ ${numero ? `@${numero}` : `@Usuarios`}`
