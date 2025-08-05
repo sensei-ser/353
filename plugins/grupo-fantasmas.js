@@ -21,25 +21,25 @@ let total = sider.length;
 switch (command.toLowerCase()) {
 case 'молчуны':
 if (total === 0) return m.reply(`⚠️ Эта группа активна, в ней нет молчунов! :D`);
-let teks = `⚠️ REVISIÓN DE INACTIVOS ⚠️\n\n`;
-teks += `Grupo: ${metadata.subject || 'Sin nombre'}\n`;
-teks += `*Miembros del grupo:* ${memberData.length}\n`;
-teks += `*Miembros inactivos:* ${total}\n\n`;
-teks += `[ 👻 LISTA DE FANTASMAS 👻 ]\n`;
+let teks = `⚠️ ОБЗОР НЕАКТИВНЫХ ⚠️\n\n`;
+teks += `Группа: ${metadata.subject || 'Sin nombre'}\n`;
+teks += `*Члены группы:* ${memberData.length}\n`;
+teks += `*Неактивные участники:* ${total}\n\n`;
+teks += `[ 👻 СПИСОК МОЛЧУНОВ 👻 ]\n`;
 teks += sider.map(v => `  👉🏻 @${v.id.split('@')[0]}`).join('\n');
-teks += `\n\n*Nota:* Esto puede no ser 100% acertado. El bot inicia el conteo de mensajes desde que se activó en este grupo.`;
+teks += `\n\n*Примечание:* Это может быть не на 100% правильным. Бот начинает подсчет сообщений с момента активации в этой группе.`;
 await conn.sendMessage(m.chat, { text: teks, contextInfo: { mentionedJid: sider.map(v => v.id)}}, { quoted: m });
 break;
 
 case 'удалитьмолчунов':
 if (total === 0) return m.reply(`⚠️ Эта группа активна, в ней нет молчунов! :D`);
-let kickTeks = `⚠️ ELIMINACIÓN DE INACTIVOS ⚠️\n\n`;
-kickTeks += `Grupo: ${metadata.subject || 'Sin nombre'}\n`;
-kickTeks += `*Miembros del grupo:* ${memberData.length}\n`;
-kickTeks += `*Miembros inactivos:* ${total}\n\n`;
-kickTeks += `[ 👻 FANTASMAS A ELIMINAR 👻 ]\n`;
+let kickTeks = `⚠️ УДАЛЕНИЕ НЕАКТИВНЫХ ⚠️\n\n`;
+kickTeks += `Группа: ${metadata.subject || 'Sin nombre'}\n`;
+kickTeks += `*Члены группы:* ${memberData.length}\n`;
+kickTeks += `*Неактивные участники:* ${total}\n\n`;
+kickTeks += `[ 👻 МОЛЧУНЫ, КОТОРЫХ НУЖНО УДАЛИТЬ 👻 ]\n`;
 kickTeks += sider.map(v => `@${v.id.split('@')[0]}`).join('\n');
-kickTeks += `\n\n*El bot eliminará la lista mencionada, empezando en 20 segundos, con 10 segundos entre cada expulsión.*`;
+kickTeks += `\n\n*Бот удалит упомянутый список, начиная с 20 секунд, с интервалом в 10 секунд между каждым удалением.*`;
 await conn.sendMessage(m.chat, { text: kickTeks, contextInfo: { mentionedJid: sider.map(v => v.id) }}, { quoted: m });
 
 let chatSettings = (await db.query("SELECT * FROM group_settings WHERE group_id = $1", [m.chat])).rows[0] || {};
