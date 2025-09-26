@@ -59,6 +59,5 @@ handler.help = ['hidetag']
 handler.tags = ['group']
 handler.command = /^(вызов|notificar|notify)$/i
 handler.group = true
-handler.admin = true
 handler.register = true 
 export default handler
