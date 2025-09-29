@@ -70,7 +70,6 @@ handler.tags = ['group'];
 handler.command = /^(молчуны|удалитьмолчунов)$/i;
 handler.group = true;
 handler.botAdmin = true;
-handler.admin = true; 
 
 
 export default handler;
