@@ -71,7 +71,7 @@ await conn.sendMessage(m.chat, { text: teks, mentions: memberData.filter(mem => 
 handler.help = ['tagall <mensaje>', 'invocar <mensaje>', 'contador']
 handler.tags = ['group']
 handler.command = /^(внимание|invocar|invocacion|todos|invocación|contador)$/i
-handler.admin = true
+
 handler.group = true
 //handler.botAdmin = true
 export default handler
