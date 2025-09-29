@@ -5,8 +5,8 @@ let handler = async(m, { conn, text, participants, metadata, args, command }) =>
 if (command == 'внимание' || command == 'invocar' || command == 'todos' || command == 'invocacion') {
 let usarLid = participants.some(p => p.id?.endsWith?.('@lid'))
 let pesan = args.join` `
-let oi = `*𝙈𝙚𝙣𝙨𝙖𝙟𝙚:* ${pesan}`
-let teks = `*⺀ ＡＣＴＩＶＥ ＧＲＵＰＯ 🗣️⺀*\n\n❏ ${oi} \n\n❏ *𝙀𝙩𝙞𝙦𝙪𝙚𝙩𝙖𝙨:*\n`
+let oi = `*Сообщения:* ${pesan}`
+let teks = `*⺀ ВНИМАНИЕ ГРУППА 🗣️⺀*\n\n❏ ${oi} \n\n❏ *Участники:*\n`
 let menciones = []
 let desconocidos = []
 let contador = 1
@@ -70,7 +70,8 @@ await conn.sendMessage(m.chat, { text: teks, mentions: memberData.filter(mem => 
 }}
 handler.help = ['tagall <mensaje>', 'invocar <mensaje>', 'contador']
 handler.tags = ['group']
-handler.command = /^(внимание)$/i
+handler.command = /^(внимание|invocar|invocacion|todos|invocación|contador)$/i
+handler.admin = true
 handler.group = true
 //handler.botAdmin = true
 export default handler
