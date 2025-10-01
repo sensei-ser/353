@@ -7,7 +7,6 @@ await conn.groupParticipantsUpdate(m.chat, [user], 'remove')}
 handler.help = ['kick *@user*']
 handler.tags = ['group']
 handler.command = ['снести', 'expulsar'] 
-handler.admin = true
 handler.group = true
 handler.botAdmin = true
 handler.register = true 
