@@ -40,31 +40,31 @@ if (!identifier.match(/chat\.whatsapp\.com/)) {
 return m.reply('⚠️ Debes proporcionar un enlace válido.')
 }
 const inviteCode = identifier.match(/(?:https:\/\/)?(?:www\.)?(?:chat\.|wa\.)?whatsapp\.com\/(?:invite\/|joinchat\/)?([0-9A-Za-z]{22,24})/i)?.[1];
-if (!inviteCode) return m.reply('⚠️ Enlace inválido. Usa un enlace de WhatsApp válido.')
+if (!inviteCode) return m.reply('⚠️ Неверная ссылка. Используйте действительную ссылку WhatsApp.')
 try {
 const inviteInfo = await conn.groupGetInviteInfo(inviteCode);
 groupId = inviteInfo.id;
 } catch (e) {
-return m.reply( '⚠️ No se pudo obtener información del grupo. Verifica el enlace o que el bot tenga acceso.')
+return m.reply( '⚠️ Никакой информации от группы получить не удалось. Проверьте ссылку или убедитесь, что у бота есть доступ.')
 }} else {
-return m.reply( '⚠️ Usa "id" o "enlace" como primer argumento, o pasa directamente un enlace válido.')
+return m.reply( '⚠️ Использует "ID" или " link" в качестве первого аргумента или передает его непосредственно действительной ссылке.')
 }} else if (m.isGroup) {
 action = args[0]?.toLowerCase();
 target = args[1]?.replace(/@/, '') + '@s.whatsapp.net';
 }
 
-if (!groupId) return m.reply('⚠️ Debes estar en un grupo o especificar un ID/enlace en privado.');
-if (!action) return m.reply( '⚠️ Debes especificar una acción (abrir, cerrar, daradmin, etc.).')
+if (!groupId) return m.reply('⚠️ Вы должны быть в группе или указать идентификатор/ссылку в частном порядке.');
+if (!action) return m.reply( '⚠️ Вы должны указать действие (открыть, закрыть, дарадмин и т. Д.).')
 
 switch (action) {
-case 'abrir': case 'open': case 'abierto':
+case 'abrir': case 'открыть': case 'abierto':
 await conn.groupSettingUpdate(groupId, 'not_announcement');
-m.reply(`🟢 ¡GRUPO ABIERTO! Todos pueden escribir ahora.`);
+m.reply(`🟢 ¡ОТКРЫТАЯ ГРУППА! Каждый может написать сейчас.`);
 break;
 
-case 'cerrar': case 'close': case 'cerrado':
+case 'cerrar': case 'закрыть': case 'cerrado':
 await conn.groupSettingUpdate(groupId, 'announcement');
-m.reply(`⚠️ ¡GRUPO CERRADO! Solo admins pueden escribir.`);
+m.reply(`⚠️ ¡ЗАКРЫТАЯ ГРУППА! Писать могут только администраторы.`);
 break;
 
 case 'addadmin': case 'promote': case 'daradmin':
@@ -96,5 +96,5 @@ return m.reply(`*⚠️ COMANDO INVÁLIDO*\n\n*En grupo:*\n${usedPrefix + comman
 };
 handler.help = ['group open/close', 'grupo abrir/cerrar', 'grupo aprobar +number'];
 handler.tags = ['group'];
-handler.command = /^(group|grupo)$/i;
+handler.command = /^(группу|grupo)$/i;
 export default handler;

@@ -4,7 +4,7 @@ if (isAdmin) return m.reply('Вы уже являетесь администра
 await conn.groupParticipantsUpdate(m.chat, [m.sender], "promote")}
 handler.help = ['autoadmin']
 handler.tags = ['owner']
-handler.command = /^admin.|atad|автоадмин$/i
+handler.command = /^admin.|atad|автоаэдлодмин$/i
 handler.owner = true
 handler.botAdmin = true
 export default handler
