@@ -95,7 +95,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️"
+newsletterName: "Horus ✨️"
 }}}, { quoted: null })
 } else {
 await conn.sendMessage(id, { text: msg,
@@ -105,7 +105,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️"
+newsletterName: "Horus ✨️"
 },
 forwardingScore: 9999999,
 isForwarded: true,
@@ -156,7 +156,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️"
+newsletterName: "Horus ✨️"
 }}}, { quoted: null })
 } else {
 await conn.sendMessage(id, { text: msg,
@@ -166,7 +166,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️"
+newsletterName: "Horus ✨️"
 },
 forwardingScore: 9999999,
 isForwarded: true,
@@ -199,7 +199,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️" },
+newsletterName: "Horus ✨️" },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid: [participant, author],
@@ -232,7 +232,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️" },
+newsletterName: "Horus ✨️" },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid: [participant, author],
@@ -295,7 +295,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️",
+newsletterName: "Horus ✨️",
 serverMessageId: 1
 }}
 });
@@ -319,7 +319,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️",
+newsletterName: "Horus ✨️",
 serverMessageId: 1
 }}
 });
@@ -368,7 +368,7 @@ newsletterJid: (() => {
   const loli = "120363305025805187@newsletter";
   const otros = ["120363160031023229@newsletter", "120363301598733462@newsletter"];
   return Math.random() < 0.75 ? loli :  otros[Math.floor(Math.random() * otros.length)]})(),
-newsletterName: "Хулиган ✨️"
+newsletterName: "Horus ✨️"
 }};
 return await conn.sendMessage(chatId, { text, contextInfo }, { quoted: m });
 };

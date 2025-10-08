@@ -1,7 +1,7 @@
 import { db } from '../lib/postgres.js';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) return m.reply(`*⚠️ Uso:* ${usedPrefix}${command} packname | author\n*Ejemplo:* ${usedPrefix}${command} Хулиган | elrebelde21`)
+if (!args[0]) return m.reply(`*⚠️ Uso:* ${usedPrefix}${command} packname | author\n*Ejemplo:* ${usedPrefix}${command} Horus | elrebelde21`)
 
 let text = args.join(' ').split('|');
 let packname = text[0].trim();

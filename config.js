@@ -5,19 +5,19 @@ import fs from 'fs'
 
 //owner
 global.owner = [
-['79615370645'],
-['79615370645'],
-['79615370645'],
-['79615370645'],
-['79615370645'],
-['79615370645']
+['79963107770'],
+['79963107770'],
+['79963107770'],
+['79963107770'],
+['79963107770'],
+['79963107770']
 ]
 
 //Información 
 globalThis.info = {
 wm: "𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿",
 vs: "2.0.0 (beta)",
-packname: "𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦❤️‍🔥 - Хулиган\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+packname: "𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦❤️‍🔥 - Horus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 author: "Owner: @elrebelde21\n• Dueña: @itschinita_official",
 apis: "https://delirius-apiofc.vercel.app",
 apikey: "GataDios",
@@ -29,14 +29,14 @@ yt: "https://www.youtube.com",
 tiktok: "https://www.tiktok.com",
 md: "https://github.com",
 fb: "https://www.facebook.com",
-nn: "79615370645", //Grupo ofc1
-nn2: "79615370645", //Grupo ofc2
-nn3: "79615370645", //Colab Loli & Gata
-nn4: "79615370645", //Enlace Хулиган
-nn5: "79615370645", //A.T.M.M
-nn6: "79615370645", //Dev support 
-nna: "79615370645",
-nna2: "79615370645"
+nn: "79963107770", //Grupo ofc1
+nn2: "79963107770", //Grupo ofc2
+nn3: "79963107770", //Colab Loli & Gata
+nn4: "79963107770", //Enlace Horus
+nn5: "79963107770", //A.T.M.M
+nn6: "79963107770", //Dev support 
+nna: "79963107770",
+nna2: "79963107770"
 }
 
 //----------------------------------------------------

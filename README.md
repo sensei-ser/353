@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=F700FF&height=100&section=header&text=✨%20Хулиган-MD%20v2.0.0%20(BETA)%20✨&fontSize=32&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F700FF&height=100&section=header&text=✨%20Horus-MD%20v2.0.0%20(BETA)%20✨&fontSize=32&fontColor=ffffff" />
 </p>
 
 <p align="center">
@@ -12,8 +12,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Versión-BETA_2.0.0-FF69B4?style=for-the-badge&logo=github">
-  <img src="https://img.shields.io/github/stars/elrebelde21/Хулиган-MD?color=yellow&style=for-the-badge" alt="stars"/>
-  <img src="https://img.shields.io/github/forks/elrebelde21/Хулиган-MD?color=blue&style=for-the-badge" alt="forks"/>
+  <img src="https://img.shields.io/github/stars/elrebelde21/Horus-MD?color=yellow&style=for-the-badge" alt="stars"/>
+  <img src="https://img.shields.io/github/forks/elrebelde21/Horus-MD?color=blue&style=for-the-badge" alt="forks"/>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 <p align="center">
   <a href="https://github.com/elrebelde21">
-    <img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3500&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Хулиган-MD+%F0%9F%90%88+%F0%9F%94%A5+Versi%C3%B3n+2.0.0+%28Beta%29;Ahora+m%C3%A1s+r%C3%A1pido+y+potente;Gracias+por+apoyar+el+proyecto+%F0%9F%92%96" />
+    <img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3500&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Horus-MD+%F0%9F%90%88+%F0%9F%94%A5+Versi%C3%B3n+2.0.0+%28Beta%29;Ahora+m%C3%A1s+r%C3%A1pido+y+potente;Gracias+por+apoyar+el+proyecto+%F0%9F%92%96" />
   </a>
 </p>
 
@@ -36,15 +36,15 @@
 
 ### 💫 Duda sobre el bot?, contactarme ✨
 
-<a href="http://wa.me/79615370645" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /> 
+<a href="http://wa.me/79963107770" target="blank"><img src="https://img.shields.io/badge/Creador-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /> 
 
-<a href="http://wa.me/79615370645?text=.estado" target="blank"><img src="https://img.shields.io/badge/Bot oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/79963107770?text=.estado" target="blank"><img src="https://img.shields.io/badge/Bot oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 ### ❇️ GRUPOS OFICIALES
 
-<a href="https://chat.whatsapp.com" target="blank"><img src="https://img.shields.io/badge/Grupo Хулиган ofc 1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /> 
-<a href="https://chat.whatsapp.com" target="blank"><img src="https://img.shields.io/badge/Grupo Хулиган ofc 2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com" target="blank"><img src="https://img.shields.io/badge/Grupo Horus ofc 1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /> 
+<a href="https://chat.whatsapp.com" target="blank"><img src="https://img.shields.io/badge/Grupo Horus ofc 2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com" target="blank"><img src="https://img.shields.io/badge/🐈 𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐋𝐨𝐥𝐢𝐁𝐨𝐭 🥳-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com" target="blank"><img src="https://img.shields.io/badge/𝐄𝐧𝐥𝐚𝐜𝐞 𝐋𝐨𝐥𝐢𝐁𝐨𝐭 -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com" target="blank"><img src="https://img.shields.io/badge/💫 𝘾𝙤𝙢𝙪𝙣𝙞𝙙𝙖𝙙 𝙇𝙤𝙡𝙞𝘽𝙤𝙩 🥳-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -95,7 +95,7 @@
 
 ---
 
-### ☁️ Activar Хулиган-MD 24/7 activos en SkyPlus Host
+### ☁️ Activar Horus-MD 24/7 activos en SkyPlus Host
 [![YouTube](https://img.shields.io/badge/SkyUltraPlus-Host-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fZbcCLpSH6Y?si=1sDen7Bzmb7jVpAI)
 
 <a href="https://dash.corinplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
@@ -110,7 +110,7 @@
 - **Contacto(s):** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
 - **Discord:** [`aqui`](https://discord.gg/Ph4eWsZ8)
 
-- [x] **Configuración** <details><summary>**Ajustes del Servidor - Хулиган-MD**</summary><img src="https://telegra.ph/file/7ddd30dd7d77354fb01fe.jpg"></details>
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - Horus-MD**</summary><img src="https://telegra.ph/file/7ddd30dd7d77354fb01fe.jpg"></details>
 
 ----
 ## 🔰 Instalación por Termux
@@ -133,7 +133,7 @@ apt update && apt upgrade -y && pkg install -y git nodejs ffmpeg imagemagick yar
 ```
 
 ```bash
-git clone https://github.com/sensei-ser/2827 && cd 2827
+git clone https://github.com/sensei-ser/353 && cd 353
 ```
 
 ```bash
@@ -184,11 +184,11 @@ npm start
 
 <p align="center">
   <sub>
-    🚧 <b>Este repositorio publica la versión actual y oficial de Хулиган-MD.</b><br>
+    🚧 <b>Este repositorio publica la versión actual y oficial de Horus-MD.</b><br>
     📢 Es posible que el bot tenga algunas fallas; se irán corrigiendo conforme se detecten.<br>
     ✂️ Si vas a editar o compartir el bot, <b>no elimines los créditos originales</b>.<br>
     🎯 Atento a las nuevas actualizaciones que se realicen en este repositorio.<br>
-    🔒 <b>Хулиган-MD no se hace responsable</b> del uso, número, privacidad ni contenido enviado, usado o gestionado por los usuarios o el bot. Úsalo bajo tu responsabilidad.<br>
+    🔒 <b>Horus-MD no se hace responsable</b> del uso, número, privacidad ni contenido enviado, usado o gestionado por los usuarios o el bot. Úsalo bajo tu responsabilidad.<br>
     🚧 <b>Actualmente está en versión <span style="color:#FF44CC">BETA</span> en desarrollo.</b><br>
   </sub>
 </p>

@@ -137,7 +137,7 @@ let res = await gpt.json()
 await conn.sendMessage(m.chat, { text: res.result.ai_response, contextInfo: {
 externalAdReply: {
 title: "[ IA COPILOT ]",
-body: "Хулиган",
+body: "Horus",
 thumbnailUrl: "https://qu.ax/nTDgf.jpg", 
 sourceUrl: "https://api.dorratz.com",
 mediaType: 1,

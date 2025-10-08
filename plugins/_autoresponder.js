@@ -18,7 +18,7 @@ return botIds.includes(num);
 
 //const isReplyToBot = m.quoted && [conn.user?.id, conn.user?.lid].some(id => id?.includes(m.quoted.sender));
 //if (!mention && !isReplyToBot) return true;
-const triggerWords = /\b(bot|simi|alexa|Хулиган)\b/i;
+const triggerWords = /\b(bot|simi|alexa|Horus)\b/i;
 if (!mention && !triggerWords.test(m.originalText)) return true;
 //if (!mention) return true;
 
@@ -40,7 +40,7 @@ console.error("[❌] Error obteniendo prompt/ttl:", e.message);
 }
 
 if (!systemPrompt) {
-systemPrompt = await fetch('https://raw.githubusercontent.com/elrebelde21/Хулиган-MD/main/src/text-chatgpt.txt').then(v => v.text());
+systemPrompt = await fetch('https://raw.githubusercontent.com/elrebelde21/Horus-MD/main/src/text-chatgpt.txt').then(v => v.text());
 //await fetch('https://raw.githubusercontent.com/Skidy89/chat-gpt-jailbreak/main/Text.txt').then(r => r.text());
 }
 
