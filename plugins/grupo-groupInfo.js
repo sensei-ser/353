@@ -1,7 +1,7 @@
 import { db } from '../lib/postgres.js'
 
 let handler = async (m, { conn }) => {
-const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => "https://yandex.ru/images/touch/search?cbir_id=2827919%2FmcGpLudsvyGC0kYBizZlbg7694&reqsource=gallery&family=moderate&platform=android&device_id=7045df14bb704cb12b76ce49844fc2ac&rpt=imageview&uuid=31f9e3d59697426fb5769f33907e2681&img_url=https%3A%2F%2Fyt3.googleusercontent.com%2Fytc%2FAIdro_l1N5CKB87TdT6zT1KoQmaphSVjIpFjLhS2bu8kMmGSt2k%3Ds900-c-k-c0x00ffffff-no-rj&cbird=213&lr=11393&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F2827919%2FmcGpLudsvyGC0kYBizZlbg7694%2Forig&cbir_page=similar")
+const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => "https://i.pinimg.com/736x/7e/b4/de/7eb4de89405bcdebb0f24a6670c19855.jpg")
 
 let groupMetadata
 try {
